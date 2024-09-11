@@ -1,0 +1,53 @@
+.featured-img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    border-radius: calc(0.24rem - 1px);
+}
+
+.single-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: calc(0.24rem - 1px);
+}
+.post-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position:center;
+    border-radius: calc(0.24rem - 1px);
+}
+.card-height {
+    height: 300px;
+    position: relative;
+
+}
+.card-height2 {
+    height: 500px;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+}
+
+.unstyle-categories {
+    text-decoration: none;
+}
+/* Untuk tanggal pada semua post */
+.card .small.text-muted {
+    margin-top: 15px; /* Atur jarak sesuai kebutuhan */
+    display: block;
+}
+
+/* Tambahkan padding pada card-body untuk memastikan ada jarak antara teks dan tepi kartu */
+.card-body {
+    padding-top: 10px; /* Atur sesuai kebutuhan */
+    padding-bottom: 10px;
+}
+.category-link {
+    color: black;
+    text-decoration: none;
+}
+.category-link:hover{
+    color: black;
+}
+
